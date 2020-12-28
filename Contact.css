@@ -1,0 +1,120 @@
+
+.content{
+    transform: translate(0px,-1860px);
+    position: absolute;
+}
+.N1{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 515px;
+    margin:0px auto;
+    transform: translate(0,355px);
+    /* position: relative; */
+}
+.N1 img{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    width: 1280px;
+    /* height: 515px; */
+}
+.form{
+    transform: translate(175px,800px);
+    margin:0,0;
+    font-family: 'baloo 2';
+    font-size: 24px;
+    color: white;
+}
+input, textarea{
+    background-color: lightgray;
+   }
+
+   .button{
+     background-color: darkgray;
+     color:#ffffff;
+     font-family: 'Baloo 2', cursive;
+     width: 150px;
+     font-family: 'baloo 2';
+     font-size: 24px;
+     color: white;
+   }
+a{
+    text-decoration: none;
+}
+.link-top1 {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,430px);
+    z-index: 7;
+}
+.sm {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translate(150px,460px);
+    font-family: 'baloo 2';
+    font-size: 20px;
+    color: #ffffff;
+}
+h3{
+    font-family: 'lemon';
+    font-size: 36px;
+    color: #ffffff;
+    transform: translate(50px,-50px);
+}
+.sm img{
+    filter: grayscale(100%);
+    width:160px;
+    padding: 50px;
+    transform: translate(-100px,25px);
+}
+.sm p{
+    transform: translate(-290px,200px);
+    font-size: 24px;
+}
+
+.link-top2 {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,760px);
+    z-index: 7;
+}
+.link-top3 {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,900px);
+    z-index: 7;
+}
+.tel{
+   transform: translate(175px,925px);
+   font-size: 24px;
+   color: white;
+   font-family: 'baloo';
+   position: relative;;
+}
+.tel p{
+    transform: translate(50px,-100px);
+    position: absolute;
+}
+
+.camping:hover{
+    background-color: #FFD600;
+}
+.hiking:hover{
+    background-color: #FFD600;
+}
+.New-arrival:hover{
+    background-color:#FD753B;
+}
+.Best-sale:hover{
+    background-color:#FD753B;
+}
+.On-sale:hover{
+    background-color:#FD753B;
+}

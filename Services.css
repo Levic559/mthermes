@@ -1,0 +1,160 @@
+
+.content{
+    transform: translate(0px,-2307.5px);
+    position: absolute;
+}
+.N1{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 515px;
+    margin:0px auto;
+    transform: translate(0,355px);
+    /* position: relative; */
+}
+.N1 img{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    width: 1280px;
+    /* height: 515px; */
+}
+.link-top1 {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,425px);
+    z-index: 7;
+}
+.hiking{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color:#FFE24D;
+    transform: translate(-375px,395px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 7;
+}
+.camping{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: #FFE24D;
+    transform: translate(-275px,425px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 6;
+}
+.service-title{
+    font-family: 'baloo 2';
+    color: #ffffff;
+    font-size: 28px;
+    position: absolute;
+    transform: translate(700px,350px);
+    line-height: 10px;
+}
+.service-title h3{
+    font-family: 'lemon';
+    color: #ffffff;
+    font-size: 36px;
+}
+.service-box1{
+    font-family: 'baloo 2';
+    color: #ffffff;
+    font-size: 28px;
+    position: absolute;
+    transform: translate(200px,450px);
+    line-height: 50px;
+}
+.service-box2{
+    font-family: 'baloo 2';
+    color: #ffffff;
+    font-size: 28px;
+    position: absolute;
+    transform: translate(800px,450px);
+    line-height: 50px;
+}
+.link-top2 {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,767.5px);
+    z-index: 7;
+}
+.Garibaldi {
+    position: absolute;
+    transform: translate(65px,660px);
+    clip-path: inset(16% 0 15% 0);
+    
+}
+iframe{
+    position: absolute;
+    transform: translate(65px,1350px);
+}
+.trial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'baloo 2';
+    font-size: 28px;
+    line-height: 28px;
+    position: absolute;
+    transform: translate(800px,-370px);
+    height: 550px;
+}
+.trial2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'baloo 2';
+    font-size: 24px;
+    line-height: 24px;
+    position: absolute;
+    transform: translate(1025px,-370px);
+    height: 550px;
+    text-align: center;
+    
+}
+.trial div{
+    background-color: lightgrey;
+    color: grey;
+    width: 395px;
+    height: 30px;
+    padding:10px 10px;
+}
+.trial2 div{
+    background-color: lightgrey;
+    color: grey;
+    width: auto;
+    height: 30px;
+    padding:10px 10px;
+}
+.trail p{
+    transform: translate(-20px,-220px);
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+.camping:hover{
+    background-color: #FFD600;
+}
+.hiking:hover{
+    background-color: #FFD600;
+}
+.New-arrival:hover{
+    background-color:#FD753B;
+}
+.Best-sale:hover{
+    background-color:#FD753B;
+}
+.On-sale:hover{
+    background-color:#FD753B;
+}

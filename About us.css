@@ -1,0 +1,90 @@
+
+*{
+    position: relative;
+}
+.content{
+    width: 1280px;
+    transform: translate(0,-2597.5px);
+    position: absolute;
+}
+.N1{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 515px;
+    margin:0px auto;
+    transform: translate(0,645px);
+    position: absolute;
+}
+.N1 img{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+    width: 1280px;
+    /* height: 515px; */
+}
+a{
+    text-decoration: none;
+}
+.camping:hover{
+    background-color: #FFD600;
+}
+.hiking:hover{
+    background-color: #FFD600;
+}
+.New-arrival:hover{
+    background-color:#FD753B;
+}
+.Best-sale:hover{
+    background-color:#FD753B;
+}
+.On-sale:hover{
+    background-color:#FD753B;
+}
+.link-top {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,425px);
+    z-index: 7;
+}
+.Brandstory{
+    font-size: 18px;
+    font-family: 'baloo 2';
+    color:lightgrey;
+    padding: 100px;
+    transform: translate(0px,1000px);
+    position: relative;
+}
+.Brandstory p{
+    transform: translate(0px,-80px);
+}
+h6{
+    font-size: 36px;
+    font-family: 'lemon';
+    color:lightgrey;
+}
+.bp{
+    transform: translate(0px,-75px);
+}
+.imagerow{
+    transform: translate(-100px,-150px);
+}
+.outdoorE{
+    transform: translate(100px,700px);
+    position: absolute;
+}
+.nature-lover{
+    transform: translate(100px,1100px);
+    position: absolute;
+}
+p{
+    font-size: 18px;
+    font-family: 'baloo 2';
+    color:lightgrey;
+}
+.nature-lover-img{
+    float:right;
+    transform: translate(00px,740px);
+    position: relative;
+}
+

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('http://onlinewebfonts.com/c/ed5050574c9de07c7d0a559f8c6a02a7?family=AR+BERKLEY');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap');
+#wrapper{
+    width: 1280px;
+    height: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+}
+.background{
+    width: 1280px;
+    height: 1750px;
+    background-color:#b8ac8d;
+    margin:0px auto;
+    transform: translate(0,245px);
+}
+.background img{
+    width: 1280px;
+    height: 1750px;
+    opacity: 10%;
+    /* transform: translate(0px,-245px); */
+    z-index: 10;
+}
+header {
+    margin:0px auto;
+    width: 1280px;
+    height: 245px;
+    background-color: #b8ac8d;
+    position: fixed;
+    z-index: 10;
+}
+.Name {
+    font-family: 'AR BERKLEY';
+    font-size: 75PT;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    margin:0px auto;
+    transform: translate(0px,30px);
+}
+header p{
+    font-family: 'Volkhov', serif;
+    font-size: 30pt;
+    font-style: italic;
+    color:rgb(128, 128, 128);
+    text-align: center;
+    transform: translate(0,-30px);
+}
+.AC{
+    color:lightgray;
+    font-size: 15pt;
+    font-family: 'baloo 2';
+    transform: translate(500px,-545px);
+}
+.AC a{
+    text-decoration: none;
+    color:lightgray;
+}
+.account img{
+    width: 22.5px;
+    height: 17.5px;
+    transform: translate(1050px,-590px);
+    filter: brightness(105%);
+}
+.cart img{
+    width: 25px;
+    height: 20px;
+    transform: translate(1215px,-615px);
+    filter: brightness(105%);
+}
+header img{
+     width: 270px;
+     height: 270px;
+     transform: translate(00px,-300px);
+     filter: brightness(75%);
+     box-shadow: 5 5 0 lightgray;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin:0px auto;
+    width: 1280px;
+    height: 30px;
+    transform: translate(250px,-435px);  
+}
+nav div{
+    background-color:#687353;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    color:#ffffff;
+    line-height: 30px;
+    font-family: 'Baloo 2', cursive;
+    font-style: bold;
+    font-size: 20px;
+    margin: 0 15px 0 15px ;
+    z-index: 0; 
+}
+
+nav a{
+    text-decoration: none; 
+}
+.search {
+    width: 175px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 0 0 0 0;
+    transform: translate(0px,2.5px); 
+}
+.search img{
+    width: 15px;
+    height: 15px;
+    transform: translate(70px,0px); 
+    filter: brightness(150%);
+} 
+
+footer{
+    width: 1280px;
+    height: 100px;
+    background-color: #ffffff;
+    margin:0px auto;
+    transform: translate(0px,245px);
+}
+footer p{
+    text-align: center;
+    font-family: 'baloo 2';
+}
+footer img{
+    width: 40px;
+    filter: grayscale(100%);
+    float: right;
+    transform: translate(-15px,-70px);
+}
+a:hover{
+    filter: brightness(60%)
+}
+.f1:hover{
+  background-color:gray;  
+}
+.f2:hover{
+    background-color: #FFD600;   
+}
+.f3:hover{
+    background-color:#F58656 ;     
+}
+.f4:hover{
+    background-color:#3D85C6;      
+}
+.f5:hover{
+    background-color:#76A5AF;     
+}

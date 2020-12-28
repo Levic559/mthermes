@@ -1,0 +1,241 @@
+
+.content{
+    transform: translate(0px,-1860px);
+    position: absolute;
+}
+.N1{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    height: 515px;
+    margin:0px auto;
+    transform: translate(0,355px);
+}
+.p1 img{
+    transform: translate(10px,0);
+    height: 515px;
+    z-index: 1; 
+}
+.p2 img{
+    transform: translate(-175px,0);
+    height: 515px;
+    z-index: 2;
+}
+.p3 img{
+    transform: translate(-360px,0);
+    height: 515px;
+    z-index: 3;
+}
+.p4 img{
+    transform: translate(-545px,0);
+    height: 515px;
+    z-index: 4;
+}
+.p5 img{
+    transform: translate(-730px,0);
+    height: 515px;
+    z-index: 5;
+}
+.N1 img{
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+}
+.link-top1 {
+    margin:0px auto;
+    width: 900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,425px);
+    z-index: 7;
+}
+.hiking{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color:#FFE24D;
+    transform: translate(-375px,395px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 7;
+}
+.camping{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: #FFE24D;
+    transform: translate(-275px,425px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 6;
+}
+.hiking-box {
+    width: 1000px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: translate(0px,450px);
+}
+.hiking-box img{
+    width: 300px;
+}
+.link-top2 {
+    margin:0px auto;
+    width:  900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0, 500px);
+    z-index: 7;
+}
+.products-box {
+    width: 1000px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transform: translate(0px,500px);
+    
+}
+.products-box img{
+    width: 300px;
+}
+.New-arrival{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: #F58656;
+    transform: translate(-375px, 500px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 7;
+    position: relative;
+}
+.Best-sale{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: #F58656;
+    transform: translate(-275px,470px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 6;
+    position: relative;
+}
+.On-sale{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color: #F58656;
+    transform: translate(-175px,440px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    z-index: 5;
+}
+.link-top3 {
+    margin:0px auto;
+    width:  900px;
+    height: 3px;
+    border-top: dashed #8b8b8b 3px;
+    transform: translate(0,550px);
+    z-index: 7;
+}
+.findus{
+    margin:0px auto;
+    width: 130px;
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    background-color:darkgray;
+    transform: translate(-375px,550px);
+    font-family: 'baloo 2';
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    z-index: 6;
+}
+.maps{
+    margin:0px auto;
+    width: 1000px;
+    height:  500px;
+    transform: translate(0px,600px);
+    justify-content: space-between;
+}
+.maps p{
+    margin:0px auto;
+    font-family: 'baloo 2';
+    color:lightgray;
+    float: right;
+    transform: translate(-200px,0px);
+}
+.form-container {
+    margin:0px auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: space-between;
+    transform: translate(0px,25px);
+}
+.searchstore{
+    width: 350px;
+    height:30px;
+    background-color: lightgrey;
+    color:darkgray;
+    line-height: 30px;
+    font-family: 'baloo 2';
+}
+.button{
+    width: 50px;
+    height:35px;
+    background-color: grey;
+}
+.button2{
+    width: 50px;
+    height:35px;
+    background-color: grey;
+    
+}
+.Subscription{
+    width: 350px;
+    height:30px;
+    background-color: lightgrey;
+    color:darkgray;
+    line-height: 30px;
+    font-family: 'baloo 2';
+}
+
+
+a{
+    text-decoration: none;
+}
+.camping:hover{
+    background-color: #FFD600;
+}
+.hiking:hover{
+    background-color: #FFD600;
+}
+.New-arrival:hover{
+    background-color:#FD753B;
+}
+.Best-sale:hover{
+    background-color:#FD753B;
+}
+.On-sale:hover{
+    background-color:#FD753B;
+}
